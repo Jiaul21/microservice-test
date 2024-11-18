@@ -1,0 +1,9 @@
+
+spring:
+  application:
+    name: student
+  output:
+    ansi:
+      enabled: ALWAYS
+  config:
+    import: optional:configserver:http://localhost:8888
